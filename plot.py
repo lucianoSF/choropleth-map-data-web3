@@ -37,5 +37,6 @@ fig.update_layout(
     margin=dict(l=0, r=0, t=0, b=0)
 )
 p.io.write_image(fig, 'studies_per_country.pdf', format='pdf')
+p.io.write_image(fig, 'studies_per_country.png', format='png')
 
 #fig.show()
